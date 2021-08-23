@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    display: flex;
+    /* justify-content: center; */
+}
+body h1{
+    font-family: 'Rampart One',cursive;
+    font-size: 50px;
+}
+.divWin{
+width: 100%;
+flex-wrap: wrap;
+display: flex;
+justify-content: center;
+}
+#img{
+    width: 50px;
+    height: 50px;
+}
+#reset{
+    font-size: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+#reset:hover{
+    color: white;
+    background-color: green;
+    border: solid 1px;
+    border-radius: 5px;
+    transition: 1s;
+    font-size: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+#divMain{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1050px;
+}
+
+
+#parede{
+    background-color: darkblue;
+    width: 50px;
+    height: 50px;
+}
+#espaco{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+#start{
+    width: 50px;
+    height: 50px;
+}
+#yoshi{
+    width: 784px;
+    height: 500px;
+}
+#final{
+    width: 50px;
+    height: 50px;
+}
+#player{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+#win{
+    display: none;
+}
